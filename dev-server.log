@@ -1,0 +1,16 @@
+
+> grash@0.1.0 start
+> cross-env NODE_ENV=development runtime-env-cra --config-name=./public/runtime-env.js && react-app-rewired start --max_old_space_size=6096
+
+
+  Provided flags:
+    --config-name = ./public/runtime-env.js
+    --env-file = ./.env
+
+  Your environment variables will be available on 'window.__RUNTIME_CONFIG__'
+  
+Successfully generated your runtime-env config!
+  Result: window.__RUNTIME_CONFIG__ = {"NODE_ENV":"production","API_URL":"http://localhost:8080","INVITATION_VIA_EMAIL":"false","GOOGLE_TRACKING_ID":"","GOOGLE_KEY":"","CLOUD_VERSION":"false","ENABLE_SSO":"false","OAUTH2_PROVIDER":"","LOGO_PATHS":"","CUSTOM_COLORS":"","BRAND_CONFIG":"","DEMO_LINK":"","PADDLE_SECRET_TOKEN":"","PADDLE_ENVIRONMENT":"production","RECAPTCHA_SITE_KEY":"","LDAP_ENABLED":"false"};
+
+  Thank you for using runtime-env-cra!
+  
